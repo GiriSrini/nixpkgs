@@ -2,7 +2,7 @@
 # Do not edit!
 
 {
-  version = "2025.11.0b5";
+  version = "2025.11.0";
   components = {
     "3_day_blinds" =
       ps: with ps; [
@@ -5838,7 +5838,7 @@
     "sun" =
       ps: with ps; [
       ];
-    "sunricher_dali_center" =
+    "sunricher_dali" =
       ps: with ps; [
         pysrdaligateway
       ];
@@ -7873,7 +7873,7 @@
     "subaru"
     "suez_water"
     "sun"
-    "sunricher_dali_center"
+    "sunricher_dali"
     "sunweg"
     "surepetcare"
     "swiss_public_transport"
