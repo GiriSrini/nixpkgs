@@ -84,6 +84,10 @@ let
       # imports broken future module
       "tests/components/overseerr/test_event.py"
     ];
+    youtube = [
+      # outdated snapshot
+      "tests/components/youtube/test_sensor.py::test_sensor"
+    ];
   };
 
   extraDisabledTests = {
